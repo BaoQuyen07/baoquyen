@@ -1,0 +1,11 @@
+package release;
+
+public class Child implements Mother, Father{
+
+	@Override
+	public void adn() {
+		System.out.println("Father >> child >> adn");
+		
+	}
+
+}
